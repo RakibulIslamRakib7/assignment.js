@@ -1,7 +1,7 @@
 // https://github.com/RakibulIslamRakib7/assignment.js
 
-// 1st Problem
 
+// 1st Problem
 function kilometerToMeter(meter){
     var result = meter /1000;
     return result;
@@ -16,6 +16,7 @@ function budgetCalculator(watch,phone,laptop){
     wacthPrice = watch * 50;
     phonePrice = phone * 100;
     laptopPrice = laptop * 500;
+// Calculating total expected price
     total = wacthPrice + phonePrice + laptopPrice;
     return total;
 }
